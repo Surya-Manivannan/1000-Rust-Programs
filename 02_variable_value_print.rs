@@ -1,4 +1,4 @@
-dffn main() {
+fn main() {
 //Integer
 let age: i32 = 25;
 println!("Age: {}", age);
@@ -8,7 +8,7 @@ let name: String = String::from("John");
 println!("Name: {}", name);
 
 //Float
-let percentage: float64 = 7.75;
+let percentage: f64 = 7.75;
 println!("Percentage: {}", percentage);
 
 //Boolean
